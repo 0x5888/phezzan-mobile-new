@@ -21,3 +21,8 @@ ul, li {
 li{
   list-style: none;
 }
+
+a, a:link, a:visited,a:hover,a:active, a:-webkit-any-link{
+  text-decoration: none !important;
+  color:inherit;
+}
