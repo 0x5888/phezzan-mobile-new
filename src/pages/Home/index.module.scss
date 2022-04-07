@@ -111,6 +111,8 @@
     .joinNow {
         margin: 0 auto;
         margin-top: 0.4rem;
+        display: flex;
+        justify-content: center;
         width: 6.9rem;
         height: 0.9rem;
         background: linear-gradient(90deg, #64FC7A, #06D4DF);
@@ -119,7 +121,7 @@
         text-align: center;
 
         img {
-            margin-top: 0.24rem;
+            margin-top: 0.26rem;
             margin-right: 0.19rem;
             width: 0.5rem;
             height: 0.36rem;
@@ -127,7 +129,7 @@
 
         span {
             display: inline-block;
-            margin-top: -0.2rem;
+            margin-top: 0.24rem;
             vertical-align: middle;
             font-size: 0.3rem;
             font-family: Alibaba PuHuiTi;
@@ -137,17 +139,27 @@
     }
 
     .explore {
-        margin-top: 0.1rem;
+        margin-top: 0.5rem;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        -moz-animation: bounce 10s infinite;
-        -webkit-animation: bounce 10s infinite;
-        animation: bounce 2s infinite;
 
         img {
             width: 0.48rem;
             height: 0.48rem;
+            -moz-animation: bounce 10s infinite;
+            -webkit-animation: bounce 10s infinite;
+            animation: bounce 2s infinite;
+        }
+
+        p {
+            margin-top: 0.14rem;
+            font-size: 0.22rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #1B4070;
+            line-height: 1;
         }
     }
 }
@@ -181,10 +193,10 @@
         flex-direction: column;
 
         span {
-            margin-top: 0.24rem;
+            margin-top: 0.2rem;
             //display: block;
             width: 0.02rem;
-            height: 0.2rem;
+            height: 0.1rem;
             background: #00BECC;
         }
 
@@ -257,9 +269,11 @@
             //height: 1.96rem;
             background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
             border: 0.01px solid;
-            border-image: linear-gradient(180deg, #64FC7A, #06D4DF) 1 1;
+            
             box-shadow: 0px 0.2rem 0.32rem 0px rgba(0, 130, 137, 0.12);
             border-radius: 0.24rem;
+
+            border-image: linear-gradient(180deg, #64FC7A, #06D4DF) 1 1;
 
             h5 {
                 margin-bottom: 0.19rem;;

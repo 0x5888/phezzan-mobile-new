@@ -12,6 +12,9 @@ import app_PHl_4 from "../../assets/images/app_PHl_icon4@2x.png"
 import Header from "./header"
 import styles from "./index.module.scss"
 
+const Discord = "https://discord.gg/phezzan"
+const Litepaper = "https://medium.com/@phezzan/phezzan-protocol-testnet-lite-paper-3f0af066aead"
+
 const Home = () => {
     return(
         <ReactFullpage
@@ -38,22 +41,28 @@ const Home = () => {
                 <p>to build the product you want together, </p>
                 <p>and to receive <span>exclusive rewards</span></p>
               </div>
-              <div className={styles.joinNow}>
-                <img src={JoinNow_btn} />
+              <a 
+                className={styles.joinNow}
+                href={Discord}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={JoinNow_btn} alt="join now" />
                 <span>Join Now</span>
-              </div>
+              </a>
               <div 
                 className={styles.explore}
                 onClick={() => fullpageApi.moveSectionDown()}
               >
                   <img src={App_goExplore} alt="expore" />
+                  <p>Explore Phezzan Protocol</p>
               </div>
             </div>
           </div>
           <div className="section">
             <div className={styles.mainSecond}>
               <div className={styles.splitLine}>
-                {[...Array(24)].map(() => {
+                {[...Array(34)].map(() => {
                   return <span></span>
                 })}
               </div>
@@ -113,7 +122,12 @@ const Home = () => {
               <div className={styles.joinItem}>
                 <div className={styles.left}>
                   <h5>Join the community.</h5>
-                  <a className={styles.button}>Join Now</a>
+                  <a 
+                    className={styles.button}
+                    href={Discord}
+                    target="_blank"
+                    rel="noreferrer"
+                  >Join Now</a>
                 </div>
                 <div className={styles.community}>
                 </div>
@@ -121,7 +135,12 @@ const Home = () => {
               <div className={styles.learnItem}>
                 <div className={styles.left}>
                   <h5>Learn more in our litepaper.</h5>
-                  <a className={styles.button}>Learn now</a>
+                  <a 
+                    className={styles.button}
+                    href={Litepaper}
+                    target="_blank"
+                    rel="noreferrer"
+                  >Learn now</a>
                 </div>
                 <div className={styles.litepaper}>
                 </div>
