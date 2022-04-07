@@ -1,0 +1,394 @@
+.mainFirst {
+    //width: 750px;
+    //height: 1448px;
+    padding-top: 0.4rem;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
+
+    .title {
+        margin-top: 0.8rem;
+        margin-bottom: 0.1rem;
+    }
+
+    h3 {
+        font-size: 0.56rem;
+        font-family: Alibaba PuHuiTi;
+        font-weight: bold;
+        color: #1B4070;
+        line-height: 1;
+        text-align: center;
+    
+        span {
+            color: #00BECC;
+            font-size: 0.56rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            line-height: 1;
+        }
+    }
+
+    h5 {
+        margin-top: 0.3rem;
+        font-size: 0.24rem;
+        font-family: Alibaba PuHuiTi;
+        font-weight: bold;
+        color: #7F8A99;
+        line-height: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin: 0 0.1rem;
+            width: 0.4rem;
+            height: 0.4rem;
+        }
+
+        .zkLogo {
+            width: 0.54rem;
+        }
+    }
+
+    .darkLight {
+        margin: 0 auto;
+        margin-top: 0.72rem;
+        margin-bottom: 0.46rem;
+        width: 6.9rem;
+        height: 2.8rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../../assets/images/app_world_img@2x.png");
+    }
+
+    p + p {
+        margin-top: 0.1rem;
+    }
+
+    p {
+        text-align: center;
+        font-size: 0.3rem;
+        font-family: Alibaba PuHuiTi;
+        font-weight: bold;
+        color: #1B4270;
+        line-height: 1;
+
+        span {
+            font-size: 0.3rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            line-height: 1;
+            color: #FFA114;
+        }
+    }
+
+    .divider {
+        margin: 0 auto;
+        margin-top: 0.45rem;
+        margin-bottom: 0.5rem;
+        width: 5.19rem;
+        height: 0.01rem;
+        background: #A8B8CC;
+        border: 0.01rem solid #A7B7CC;
+    }
+
+    .description {
+        p {
+            font-size: 0.3rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #7F8A99;
+            line-height: 1;
+            text-align: center;
+
+            span {
+                color: #00BECC;
+            }
+        }
+    }
+
+    .joinNow {
+        margin: 0 auto;
+        margin-top: 0.4rem;
+        width: 6.9rem;
+        height: 0.9rem;
+        background: linear-gradient(90deg, #64FC7A, #06D4DF);
+        box-shadow: 0px 0.4rem 0.48rem 0px rgba(0, 130, 137, 0.2);
+        border-radius: 0.45rem;
+        text-align: center;
+
+        img {
+            margin-top: 0.24rem;
+            margin-right: 0.19rem;
+            width: 0.5rem;
+            height: 0.36rem;
+        }
+
+        span {
+            display: inline-block;
+            margin-top: -0.2rem;
+            vertical-align: middle;
+            font-size: 0.3rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    }
+
+    .explore {
+        margin-top: 0.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -moz-animation: bounce 10s infinite;
+        -webkit-animation: bounce 10s infinite;
+        animation: bounce 2s infinite;
+
+        img {
+            width: 0.48rem;
+            height: 0.48rem;
+        }
+    }
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(0.05rem);
+    }
+    60% {
+        transform: translateY(0.1rem);
+    }
+}
+
+.mainSecond {
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 0.6rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
+
+    .splitLine {
+        position: absolute;
+        left: 0.8rem;
+        top: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        span {
+            margin-top: 0.24rem;
+            //display: block;
+            width: 0.02rem;
+            height: 0.2rem;
+            background: #00BECC;
+        }
+
+    }
+
+    h3 {
+        margin-bottom: 0.6rem;
+        font-size: 0.6rem;
+        font-family: Alibaba PuHuiTi;
+        font-weight: bold;
+        color: #1B4070;
+        line-height: 1;
+        text-align: center;
+
+        span {
+            font-size: 0.6rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #00BECC;
+            line-height: 1; 
+        }
+    }
+
+    .productItem, .productItemEarn, .productTestnet, .productDe {
+        position: relative;
+        z-index: 1;
+        margin-top: 0.6rem;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0.19rem;
+        padding-right: 0.32rem;
+        
+        .icon {
+            //margin-top: 0.4rem;
+            //position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+                width: 1.22rem;
+                height: 1.22rem;
+            }
+
+            .line {
+                display: flex;
+                flex-direction: column;
+                
+                span {
+                    margin-top: 0.24rem;
+                    //display: block;
+                    width: 0.02rem;
+                    height: 0.2rem;
+                    background: #00BECC;
+                }
+            }
+        }
+
+        .info {
+            display: flex;
+            padding-left: 0.26rem;
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 0.3rem;
+            padding-bottom: 0.4rem;
+            width: 5.6rem;
+            //height: 1.96rem;
+            background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
+            border: 0.01px solid;
+            border-image: linear-gradient(180deg, #64FC7A, #06D4DF) 1 1;
+            box-shadow: 0px 0.2rem 0.32rem 0px rgba(0, 130, 137, 0.12);
+            border-radius: 0.24rem;
+
+            h5 {
+                margin-bottom: 0.19rem;;
+                font-size: 0.36rem;
+                font-family: Alibaba PuHuiTi;
+                font-weight: bold;
+                color: #1B4070;
+                line-height: 1;
+            }
+
+            p {
+                font-size: 0.24rem;
+                font-family: Alibaba PuHuiTi;
+                font-weight: bold;
+                color: #8A96A6;
+
+                span {
+                    font-size: 0.24rem;
+                    font-family: Alibaba PuHuiTi;
+                    font-weight: bold;
+                    color: #FFA114;
+                }
+            }
+        }
+    }
+
+    .productItemEarn, .productTestnet, .productDe {
+        .info {
+            padding-top: 0.5rem;
+
+            h5 {
+                margin-bottom: 0.26rem;
+            }
+        }
+    }
+
+    .productItemEarn {
+
+    }
+}
+
+
+.mainThird {
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
+
+    h3 {
+        text-align: center;
+        font-size: 0.6rem;
+        font-family: Alibaba PuHuiTi;
+        font-weight: bold;
+        color: #1B4270;
+        line-height: 1;
+    }
+
+    .subTitle {
+        color: #00BECC;
+        margin-top: 0.24rem;
+    }
+
+    .joinItem, .learnItem {
+        margin: 0 auto;
+        padding-left: 0.38rem;
+        padding-right: 0.38rem;
+        margin-top: 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 6.6rem;
+        height: 3rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../../assets/images/app_communitycard_bg@2x.png");
+
+        .left {
+            display: flex;
+            //height: 1.42rem;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h5 {
+            width: 3.7rem;
+            font-size: 0.36rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+
+        a {
+            margin-top: 0.4rem;
+            box-sizing: border-box;
+            display: block;
+            padding-top: 0.2rem;
+            width: 2rem;
+            height: 0.72rem;
+            background: linear-gradient(0deg, #E6F1FF, #FFFFFF);
+            border-radius: 0.36rem;
+            font-size: 0.26rem;
+            font-family: Alibaba PuHuiTi;
+            font-weight: bold;
+            color: #00A7B3;
+            text-align: center;
+        }
+
+        .community, .litepaper {
+            width: 1.68rem;
+            height: 1.42rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("../../assets/images/app_communitycard_icon@2x.png");
+        }
+    }
+
+    .learnItem {
+        background-image: url("../../assets/images/app_litepapercard_bg@2x.png");
+
+        .litepaper {
+            background-image: url("../../assets/images/app_litepaper_icon@2x.png");
+        }
+    }
+
+
+}
