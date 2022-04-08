@@ -55,7 +55,7 @@ const Home = () => {
                 onClick={() => fullpageApi.moveSectionDown()}
               >
                   <img src={App_goExplore} alt="expore" />
-                  <p>Explore Phezzan Protocol</p>
+                  {/* <p>Explore Phezzan Protocol</p> */}
               </div>
             </div>
           </div>
