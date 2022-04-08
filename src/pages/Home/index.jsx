@@ -97,8 +97,8 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Testnet in April on zkSync 2.0</h5>
                   <p>Lightening fast order execution and</p>
-                  <p>unbelievably low fees, powered by </p>
-                  <p><span>zkSync 2.0</span>.</p>
+                  <p>unbelievably low fees,</p>
+                  <p>powered by <span>zkSync 2.0</span>.</p>
                 </div>
               </div>
               <div className={styles.productDe}>
