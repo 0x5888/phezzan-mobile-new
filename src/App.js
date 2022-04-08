@@ -6,6 +6,7 @@ function App() {
   if (!isMobile) {
     // eslint-disable-next-line no-useless-concat
     window.location.href = "https://phezzan-web-new.vercel.app" + '?t='+Math.random()
+    return <></>;
   }
 
   return (
