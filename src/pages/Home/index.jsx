@@ -13,7 +13,7 @@ import Header from "./header"
 import styles from "./index.module.scss"
 
 const Discord = "https://discord.gg/phezzan"
-const Litepaper = "https://medium.com/@phezzan/phezzan-protocol-testnet-lite-paper-3f0af066aead"
+const Litepaper = "https://roland-1.gitbook.io/phezzan-protocol-testnet-litepaper"
 
 const Home = () => {
     return(
@@ -62,7 +62,7 @@ const Home = () => {
           <div className="section">
             <div className={styles.mainSecond}>
               <div className={styles.splitLine}>
-                {[...Array(34)].map(() => {
+                {[...Array(33)].map(() => {
                   return <span></span>
                 })}
               </div>
@@ -108,8 +108,8 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Fully decentralized</h5>
                   <p>All orders are executed and settled <span>on-</span></p>
-                  <p><span>chain</span>. DeFi for the masses thanks to de</p>
-                  <p>centralized stablecoins.</p>
+                  <p><span>chain</span>. DeFi for the masses thanks to</p>
+                  <p>decentralized stablecoins.</p>
                 </div>
               </div>
             </div>

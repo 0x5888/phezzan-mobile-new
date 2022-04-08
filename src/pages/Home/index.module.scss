@@ -188,7 +188,7 @@
     .splitLine {
         position: absolute;
         left: 0.8rem;
-        top: 2rem;
+        top: 2.14rem;
         display: flex;
         flex-direction: column;
 
@@ -223,7 +223,7 @@
     .productItem, .productItemEarn, .productTestnet, .productDe {
         position: relative;
         z-index: 1;
-        margin-top: 0.6rem;
+        margin-top: 0.54rem;
         display: flex;
         box-sizing: border-box;
         justify-content: space-between;
@@ -263,17 +263,18 @@
             box-sizing: border-box;
             flex-direction: column;
             justify-content: center;
-            padding-top: 0.3rem;
-            padding-bottom: 0.4rem;
+            //padding-top: 0.3rem;
+            //padding-bottom: 0.6rem;
             width: 5.6rem;
             //height: 1.96rem;
             background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
-            border: 0.01px solid;
-            
-            box-shadow: 0px 0.2rem 0.32rem 0px rgba(0, 130, 137, 0.12);
             border-radius: 0.24rem;
 
-            border-image: linear-gradient(180deg, #64FC7A, #06D4DF) 1 1;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../../assets/images/textcard@2x.png");
+
 
             h5 {
                 margin-bottom: 0.19rem;;
@@ -301,8 +302,10 @@
     }
 
     .productItemEarn, .productTestnet, .productDe {
+        margin-top: 0.28rem;
+
         .info {
-            padding-top: 0.5rem;
+            //padding-top: 0.5rem;
 
             h5 {
                 margin-bottom: 0.26rem;
@@ -310,8 +313,28 @@
         }
     }
 
-    .productItemEarn {
+    .productItem {
+        .info {
+            height: 2.28rem;
+        }
+    }
 
+    .productItemEarn{
+        .info {
+            height: 2.79rem
+        }
+    }
+
+    .productTestnet {
+        .info {
+            height: 2.85rem;
+        }
+    }
+
+    .productDe {
+        .info {
+            height: 2.81rem;
+        }
     }
 }
 
