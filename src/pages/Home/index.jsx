@@ -34,28 +34,22 @@ const Home = () => {
               <h5>powered by <img src={App_aUST_logo} alt="aUST" /> aUST <img className={styles.zkLogo} src={App_zkSync_logo} alt="zkSync" /> zkSync 2.0</h5>
               <div className={styles.darkLight}></div>
               <p>Earn <span>19.45%</span> APY while you trade.</p>
-              <p>Testnet in April.</p>
-              <div className={styles.divider}></div>
-              <div className={styles.description}>
-                <p>Join now to be an early member, </p>
-                <p>to build the product you want together, </p>
-                <p>and to receive <span>exclusive rewards</span></p>
-              </div>
+              <p>Testnet live on Rinkeby.</p>
               <a 
                 className={styles.joinNow}
                 href={Discord}
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={JoinNow_btn} alt="join now" />
-                <span>Join Now</span>
+                <img src={JoinNow_btn} alt="join testnet" />
+                <span>Join Testnet</span>
               </a>
               <div 
                 className={styles.explore}
                 onClick={() => fullpageApi.moveSectionDown()}
               >
                   <img src={App_goExplore} alt="expore" />
-                  {/* <p>Explore Phezzan Protocol</p> */}
+                  <p>Explore Phezzan Protocol</p>
               </div>
             </div>
           </div>
@@ -95,10 +89,10 @@ const Home = () => {
                   <img src={app_PHl_3} />
                 </div>
                 <div className={styles.info}>
-                  <h5>Testnet in April on zkSync 2.0</h5>
-                  <p>Lightening fast order execution and</p>
-                  <p>unbelievably low fees,</p>
-                  <p>powered by <span>zkSync 2.0</span>.</p>
+                  <h5>Testnet live now on Rinkeby</h5>
+                  <p>Lightening fast order execution</p>
+                  <p>and unbelievably low fees,</p>
+                  <p>powered by <span>zkSync 2.0</span> coming soon.</p>
                 </div>
               </div>
               <div className={styles.productDe}>
@@ -121,7 +115,7 @@ const Home = () => {
               <h3 className={styles.subTitle}>Here is what you can do.</h3>
               <div className={styles.joinItem}>
                 <div className={styles.left}>
-                  <h5>Join the community.</h5>
+                  <h5>Join the community</h5>
                   <a 
                     className={styles.button}
                     href={Discord}
@@ -134,7 +128,7 @@ const Home = () => {
               </div>
               <div className={styles.learnItem}>
                 <div className={styles.left}>
-                  <h5>Learn more in our litepaper.</h5>
+                  <h5>Learn more in our litepaper</h5>
                   <a 
                     className={styles.button}
                     href={Litepaper}
