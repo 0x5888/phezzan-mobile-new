@@ -3,6 +3,7 @@ import ReactFullpage from '@fullpage/react-fullpage'; // will return static vers
 import App_aUST_logo from "../../assets/images/app_aUST_logo@2x.png"
 import App_zkSync_logo from "../../assets/images/app_zkSync_logo@2x.png"
 import JoinNow_btn from "../../assets/images/JoinNow_btn_Discordlogo@2x.png"
+import JoinNow from "../../assets/images/JoinNow@2x.png"
 import App_goExplore from "../../assets/images/app_goExplore@2x.png"
 import app_PHl_1 from "../../assets/images/app_PHl_icon1@2x.png"
 import app_PHl_2 from "../../assets/images/app_PHl_icon2@2x.png"
@@ -41,7 +42,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={JoinNow_btn} alt="join testnet" />
+                <img src={JoinNow} alt="join testnet" />
                 <span>Join Testnet</span>
               </a>
               <div 
