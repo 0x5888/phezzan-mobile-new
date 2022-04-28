@@ -2,7 +2,6 @@ import React from "react";
 import ReactFullpage from '@fullpage/react-fullpage'; // will return static version on server and "live" version on client
 import App_aUST_logo from "../../assets/images/app_aUST_logo@2x.png"
 import App_zkSync_logo from "../../assets/images/app_zkSync_logo@2x.png"
-import JoinNow_btn from "../../assets/images/JoinNow_btn_Discordlogo@2x.png"
 import JoinNow from "../../assets/images/JoinNow@2x.png"
 import App_goExplore from "../../assets/images/app_goExplore@2x.png"
 import app_PHl_1 from "../../assets/images/app_PHl_icon1@2x.png"
@@ -13,7 +12,7 @@ import app_PHl_4 from "../../assets/images/app_PHl_icon4@2x.png"
 import Header from "./header"
 import styles from "./index.module.scss"
 
-const Discord = "https://discord.gg/phezzan"
+const Discord = "https://discord.com/invite/YzgjJWjBV3"
 const Litepaper = "https://roland-1.gitbook.io/phezzan-protocol-testnet-litepaper"
 
 const Home = () => {
