@@ -33,7 +33,7 @@ const Home = () => {
               <h3>earning <span>perpetual DEX</span></h3>
               <h5>powered by <img src={App_aUST_logo} alt="aUST" /> aUST <img className={styles.zkLogo} src={App_zkSync_logo} alt="zkSync" /> zkSync 2.0</h5>
               <div className={styles.darkLight}></div>
-              <p>Earn <span>19.45%</span> APY while you trade.</p>
+              <p>Earn <span>18%</span> APY while you trade.</p>
               <p>Testnet live on Rinkeby.</p>
               <a 
                 className={styles.joinNow}
@@ -66,9 +66,9 @@ const Home = () => {
                   <img src={app_PHl_1} />
                 </div>
                 <div className={styles.info}>
-                  <h5>19.45% APY on all collateral</h5>
+                  <h5>18% APY on all collateral</h5>
                   <p>Deposits will be converted to aUST.</p>
-                  <p>Earn <span>19.45%</span> APY as traders or LPs.</p>
+                  <p>Earn <span>18%</span> APY as traders or LPs.</p>
                 </div>
               </div>
 
