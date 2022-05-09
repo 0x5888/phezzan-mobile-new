@@ -12,7 +12,7 @@ import app_PHl_4 from "../../assets/images/app_PHl_icon4@2x.png"
 import Header from "./header"
 import styles from "./index.module.scss"
 
-const Discord = "https://discord.gg/xMESBDwX"
+const Discord = "https://discord.gg/yQfzm4RF"
 const Litepaper = "https://roland-1.gitbook.io/phezzan-protocol-testnet-litepaper"
 
 const Home = () => {
