@@ -13,7 +13,7 @@ import Header from "./header"
 import styles from "./index.module.scss"
 
 const Discord = "https://discord.gg/2esYQKBZ"
-const Litepaper = "https://roland-1.gitbook.io/phezzan-protocol-testnet-litepaper"
+const Litepaper = "https://litepaper.phezzan.xyz"
 
 const Home = () => {
     return(
