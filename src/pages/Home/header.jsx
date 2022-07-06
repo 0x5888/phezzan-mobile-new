@@ -3,7 +3,7 @@ import styles from "./header.module.scss"
 
 import logoImg from "../../assets/images/logo@2x.png"
 
-const Litepaper = "https://litepaper.phezzan.xyz"
+const Litepaper = "https://learn.phezzan.xyz"
 
 const Twitter = "https://twitter.com/PhezzanProtocol"
 
