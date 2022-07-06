@@ -13,7 +13,7 @@ import Header from "./header"
 import styles from "./index.module.scss"
 
 const Discord = "https://discord.gg/WUzKYkks"
-const Litepaper = "https://litepaper.phezzan.xyz"
+const Litepaper = " https://learn.phezzan.xyz"
 
 const Home = () => {
     return(
@@ -129,7 +129,8 @@ const Home = () => {
               </div>
               <div className={styles.learnItem}>
                 <div className={styles.left}>
-                  <h5>Learn more in our litepaper</h5>
+                  <h5>Read more about Phezzan &
+Learn in Phezzan Academy</h5>
                   <a 
                     className={styles.button}
                     href={Litepaper}
