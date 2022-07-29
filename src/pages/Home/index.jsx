@@ -93,7 +93,7 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Unbelievably fast and cheap</h5>
                   <p>Lightening fast order execution and</p>
-                  <p>unbelievably low fees,powered by</p>
+                  <p>unbelievably low fees, &nbsp;powered by</p>
                   <p><span>zkSync 2.0</span></p>
                 </div>
               </div>
