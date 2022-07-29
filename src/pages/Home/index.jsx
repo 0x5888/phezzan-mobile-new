@@ -33,8 +33,9 @@ const Home = () => {
               <h3><span>Trading For All</span></h3>
               <h5>powered by <img className={styles.zkLogo} src={App_zkSync_logo} alt="zkSync" /> zkSync 2.0</h5>
               <div className={styles.darkLight}></div>
-              <p>Earn <span>yield</span> APY while you trade.</p>
-              <p>Testnet live on Rinkeby.</p>
+              <p><span>Multi-collateral</span> support</p>
+              <p>Earn <span>yield</span> while you trade</p>
+              <p>Testnet live on <span>zkSync 2.0</span></p>
               <a 
                 className={styles.joinNow}
                 href={Discord}
@@ -68,7 +69,7 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Earn yield as a trader or LP</h5>
                   <p><span>Yield</span> bearing assets can be used as</p>
-                  <p>collateral.<span>PnL</span> auto converts to yield</p>
+                  <p>collateral.&nbsp;<span>PnL</span> auto converts to yield</p>
                   <p>bearing assets.</p>
                 </div>
               </div>
@@ -103,8 +104,8 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Fully decentralized</h5>
                   <p>All orders are executed and settled</p>
-                  <p><span>on-chain</span>. Democratize perpetual trading for all.</p>
-                  <p></p>
+                  <p><span>on-chain</span>.</p>
+                  <p><span>Democratize perpetual trading for all.</span></p>
                 </div>
               </div>
             </div>
