@@ -79,9 +79,9 @@ const Home = () => {
                 </div>
                 <div className={styles.info}>
                   <h5>Support multi collateral</h5>
-                  <p><span>Stablecoins</span> and <span>yield-bearing asset</span></p>
-                  <p>can be used as collateral. Coming</p>
-                  <p>soon.</p>
+                  <p><span>Stablecoins, </span> <span>crypto tokens,</span> and</p>
+                  <p><span>yield-bearing asset</span></p>
+                  <p>can be used as collateral.</p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ const Home = () => {
                   <h5>Unbelievably fast and cheap</h5>
                   <p>Lightening fast order execution and</p>
                   <p>unbelievably low fees,powered by</p>
-                  <p><span>zkSync 2.0</span> coming soon.</p>
+                  <p><span>zkSync 2.0</span></p>
                 </div>
               </div>
               <div className={styles.productDe}>
@@ -102,8 +102,8 @@ const Home = () => {
                 </div>
                 <div className={styles.info}>
                   <h5>Fully decentralized</h5>
-                  <p>All orders are executed and settled></p>
-                  <p><span>on-chain</span>. Perpetual DEX for the masses.</p>
+                  <p>All orders are executed and settled</p>
+                  <p><span>on-chain</span>. Democratize perpetual trading for all.</p>
                   <p></p>
                 </div>
               </div>
