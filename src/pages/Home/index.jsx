@@ -12,7 +12,7 @@ import app_PHl_4 from "../../assets/images/app_PHl_icon4_1@2x.png"
 import Header from "./header"
 import styles from "./index.module.scss"
 
-const Discord = "https://discord.gg/n2Nfcwxr"
+const Discord = "https://discord.gg/2daZpr6U"
 const Litepaper = " https://learn.phezzan.xyz"
 
 const Home = () => {
@@ -33,8 +33,9 @@ const Home = () => {
               <h3><span>Trading For All</span></h3>
               <h5>powered by <img className={styles.zkLogo} src={App_zkSync_logo} alt="zkSync" /> zkSync 2.0</h5>
               <div className={styles.darkLight}></div>
-              <p>Earn <span>yield</span> APY while you trade.</p>
-              <p>Testnet live on Rinkeby.</p>
+              <p><span>Multi-collateral</span> support</p>
+              <p>Earn <span>yield</span> while you trade</p>
+              <p>Testnet live on <span>zkSync 2.0</span></p>
               <a 
                 className={styles.joinNow}
                 href={Discord}
@@ -68,7 +69,7 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Earn yield as a trader or LP</h5>
                   <p><span>Yield</span> bearing assets can be used as</p>
-                  <p>collateral.<span>PnL</span> auto converts to yield</p>
+                  <p>collateral.&nbsp;<span>PnL</span> auto converts to yield</p>
                   <p>bearing assets.</p>
                 </div>
               </div>
@@ -79,9 +80,9 @@ const Home = () => {
                 </div>
                 <div className={styles.info}>
                   <h5>Support multi collateral</h5>
-                  <p><span>Stablecoins</span> and <span>yield-bearing asset</span></p>
-                  <p>can be used as collateral. Coming</p>
-                  <p>soon.</p>
+                  <p><span>Stablecoins, </span> <span>crypto tokens,</span> and</p>
+                  <p><span>yield-bearing asset</span></p>
+                  <p>can be used as collateral.</p>
                 </div>
               </div>
 
@@ -92,8 +93,8 @@ const Home = () => {
                 <div className={styles.info}>
                   <h5>Unbelievably fast and cheap</h5>
                   <p>Lightening fast order execution and</p>
-                  <p>unbelievably low fees,powered by</p>
-                  <p><span>zkSync 2.0</span> coming soon.</p>
+                  <p>unbelievably low fees, &nbsp;powered by</p>
+                  <p><span>zkSync 2.0</span></p>
                 </div>
               </div>
               <div className={styles.productDe}>
@@ -102,9 +103,9 @@ const Home = () => {
                 </div>
                 <div className={styles.info}>
                   <h5>Fully decentralized</h5>
-                  <p>All orders are executed and settled></p>
-                  <p><span>on-chain</span>. Perpetual DEX for the masses.</p>
-                  <p></p>
+                  <p>All orders are executed and settled</p>
+                  <p><span>on-chain</span>.</p>
+                  <p><span>Democratize perpetual trading for all.</span></p>
                 </div>
               </div>
             </div>
