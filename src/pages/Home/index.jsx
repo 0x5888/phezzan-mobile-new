@@ -12,7 +12,7 @@ import app_PHl_4 from "../../assets/images/app_PHl_icon4_1@2x.png"
 import Header from "./header"
 import styles from "./index.module.scss"
 
-const Discord = "https://discord.gg/zbJSbhhB"
+const Discord = "https://discord.gg/K5fqw3Eu"
 const Litepaper = " https://learn.phezzan.xyz"
 
 const Home = () => {
