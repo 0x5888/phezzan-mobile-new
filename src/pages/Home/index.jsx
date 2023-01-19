@@ -58,7 +58,7 @@ const Home = () => {
           <div className="section">
             <div className={styles.mainSecond}>
               <div className={styles.splitLine}>
-                {[...Array(33)].map(() => {
+                {[...Array(31)].map(() => {
                   return <span></span>
                 })}
               </div>
