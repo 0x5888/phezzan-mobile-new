@@ -188,7 +188,7 @@
     .splitLine {
         position: absolute;
         left: 0.8rem;
-        top: 2.14rem;
+        top: 2.8rem;
         display: flex;
         flex-direction: column;
 
@@ -265,7 +265,7 @@
             justify-content: center;
             //padding-top: 0.3rem;
             //padding-bottom: 0.6rem;
-            width: 5.6rem;
+            width: 5.8rem;
             //height: 1.96rem;
             background: linear-gradient(0deg, #FFFFFF, #F0F6FF);
             border-radius: 0.24rem;
@@ -316,7 +316,12 @@
 
     .productItem {
         .info {
-            height: 2.2rem;
+            height: 2.8rem;
+        }
+
+        .icon {
+            position: relative;
+            top: -0.38rem;
         }
     }
 
@@ -335,6 +340,11 @@
     .productDe {
         .info {
             height: 2.8rem;
+        }
+
+        .icon {
+            position: relative;
+            top: 0.2rem;
         }
     }
 }

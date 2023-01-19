@@ -4,10 +4,11 @@ import App_aUST_logo from "../../assets/images/app_aUST_logo@2x.png"
 import App_zkSync_logo from "../../assets/images/app_zkSync_logo@2x.png"
 import JoinNow from "../../assets/images/JoinNow@2x.png"
 import App_goExplore from "../../assets/images/app_goExplore@2x.png"
-import app_PHl_1 from "../../assets/images/app_PHl_icon1_1@2x.png"
-import app_PHl_2 from "../../assets/images/app_PHl_icon2_1@2x.png"
-import app_PHl_3 from "../../assets/images/app_PHl_icon3_1@2x.png"
-import app_PHl_4 from "../../assets/images/app_PHl_icon4_1@2x.png"
+
+import app_PHl_1 from "../../assets/images/visit.png" //liquidity
+import app_PHl_2 from "../../assets/images/market_1.png"
+import app_PHl_3 from "../../assets/images/traders_1.png"
+import app_PHl_4 from "../../assets/images/keys_1.png"
 
 import Header from "./header"
 import styles from "./index.module.scss"
@@ -33,17 +34,17 @@ const Home = () => {
               <h3><span>Trading For All</span></h3>
               <h5>powered by <img className={styles.zkLogo} src={App_zkSync_logo} alt="zkSync" /> zkSync 2.0</h5>
               <div className={styles.darkLight}></div>
-              <p><span>Multi-collateral</span> support</p>
-              <p>Earn <span>yield</span> while you trade</p>
-              <p>Testnet live on <span>zkSync 2.0</span></p>
+              <p>Orderbook perpetual DEX</p>
+              <p>that enables <span>retail liquidity</span></p>
+              <p>APY without Impermanent Loss.</p>
               <a 
                 className={styles.joinNow}
                 href={Discord}
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={JoinNow} alt="join testnet" />
-                <span>Join Testnet</span>
+                <img src={JoinNow} alt="join Phezzan Community" />
+                <span>Join Phezzan Community</span>
               </a>
               <div 
                 className={styles.explore}
@@ -67,10 +68,10 @@ const Home = () => {
                   <img src={app_PHl_1} />
                 </div>
                 <div className={styles.info}>
-                  <h5>Earn yield as a trader or LP</h5>
-                  <p><span>Yield</span> bearing assets can be used as</p>
-                  <p>collateral.&nbsp;<span>PnL</span> auto converts to yield</p>
-                  <p>bearing assets.</p>
+                  <h5>For Liquidity Providers</h5>
+                  <p><span>Choose</span> from a wide range of market making strategies,</p>
+                  <p>let professionals manage your capital for you,</p>
+                  <p>and earn <span>APY without Impermanent Loss.</span></p>
                 </div>
               </div>
 
@@ -79,10 +80,10 @@ const Home = () => {
                   <img src={app_PHl_2} />
                 </div>
                 <div className={styles.info}>
-                  <h5>Support multi collateral</h5>
-                  <p><span>Stablecoins, </span> <span>crypto tokens,</span> and</p>
-                  <p><span>yield-bearing asset</span></p>
-                  <p>can be used as collateral.</p>
+                  <h5>For Market Makers</h5>
+                  <p>Have more <span>access</span> to retail capital,</p>
+                  <p>keep your strategies <span>private</span>,</p>
+                  <p>and earn commission <span>on your own terms.</span></p>
                 </div>
               </div>
 
@@ -91,10 +92,10 @@ const Home = () => {
                   <img src={app_PHl_3} />
                 </div>
                 <div className={styles.info}>
-                  <h5>Unbelievably fast and cheap</h5>
-                  <p>Lightening fast order execution and</p>
-                  <p>unbelievably low fees, &nbsp;powered by</p>
-                  <p><span>zkSync 2.0</span></p>
+                  <h5>For Traders</h5>
+                  <p><span>Deep</span> liquidity and <span>tight</span> spread.</p>
+                  <p>CEX like experiences.</p>
+                  <p>&nbsp;</p>
                 </div>
               </div>
               <div className={styles.productDe}>
@@ -102,10 +103,10 @@ const Home = () => {
                   <img src={app_PHl_4} />
                 </div>
                 <div className={styles.info}>
-                  <h5>Fully decentralized</h5>
-                  <p>All orders are executed and settled</p>
-                  <p><span>on-chain</span>.</p>
-                  <p><span>Democratize perpetual trading for all.</span></p>
+                  <h5>Not your keys, not your coin</h5>
+                  <p>Phezzan does not hold your crypto.</p>
+                  <p>All orders are executed and settled <span>on-chain.</span></p>
+                  <p>&nbsp;</p>
                 </div>
               </div>
             </div>
